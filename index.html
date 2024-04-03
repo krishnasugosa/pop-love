@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="position">
+        <div class="position-btn">
+            <button class="btn">Click This Button✨</button>
+        </div>
+        <div class="position-txt">
+            <h2 class="txt">I Love You💗</h2>
+        </div>
+       
+    </div>
+</body>
+<script>
+    const btn = document.querySelector('.btn');
+    const txt = document.querySelector('.txt');
+
+btn.addEventListener('click',()=>{
+   txt.classList.add('show')
+   btn.classList.add('not')
+   document.body.classList.add('background')
+});
+</script>
+</html>
